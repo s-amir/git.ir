@@ -1,4 +1,4 @@
-package com.example.gitrestproject.controller;
+package com.example.gitrestproject.controller.profilecontroller;
 
 import com.example.gitrestproject.Service.sayHello;
 import org.springframework.beans.factory.annotation.Autowired;
