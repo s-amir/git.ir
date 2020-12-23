@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class thymeleafController {
 
-    @RequestMapping(path = "/hellopage")
+    @RequestMapping(path = "/hello")
     public String showmessage(Model model){
         model.addAttribute("message","hello to thymeleafe Template");
         return "hello";
